@@ -1,0 +1,91 @@
+aid: augury
+name: Augury
+description: >-
+  Augury is a New York City-headquartered industrial AI company founded in
+  2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in
+  Machine Health and Production Health for manufacturing. Its flagship
+  offering pairs purpose-built IoT vibration, temperature, and magnetic
+  sensors — most prominently the Halo Node and earlier Auguscope hardware —
+  with a cloud platform that applies prescriptive AI diagnostics to rotating
+  and electrical equipment, advertised as delivering 75% fewer false alarms
+  than threshold-based vibration systems and trained on more than one billion
+  hours of machine monitoring data. Augury's product portfolio spans Machine
+  Health (predictive maintenance for assets such as motors, pumps, fans,
+  compressors, and gearboxes), Process Health (process optimization software
+  acquired with Seebo in 2022 for yield, waste, and energy improvements), and
+  an Industrial AI Workforce of AI agents that act on combined machine and
+  operational data. The company runs an integration ecosystem branded
+  Augury Plus (CMMS/EAM connectors for SAP PM, IBM Maximo, Infor EAM,
+  MaintainX, and cloud/industrial platforms including Microsoft Azure, PTC,
+  and AVEVA Connect), Augury On (OEM-embedded Machine Health with partners
+  such as Grundfos, Schneider Electric, Trane, Carrier, Bently Nevada, and
+  Baker Hughes), and Augury By (service partners including Accenture,
+  Deloitte, Bain, McKinsey, Sodexo, Aramark, and AECOM). Augury closed a
+  $75M Series F in February 2025 at a $1B+ valuation led by Lightrock with
+  Insight Partners, Eclipse, Qumra Capital, La Maison Partners, SE
+  Ventures, and Qualcomm Ventures, reports a 5x revenue increase since 2021,
+  and serves 170+ global manufacturers across 40+ countries including
+  Heineken, PepsiCo (Frito-Lay), Colgate-Palmolive, Shell, and Hershey's.
+  The company commercializes through hardware-plus-subscription contracts
+  and embedded OEM agreements, references public APIs and certified system
+  integrator partners for custom integrations into customer enterprise
+  systems, and does not publish an open developer portal, OpenAPI
+  description, SDK, or public-facing API reference for the Halo platform.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Industrial AI
+  - Machine Health
+  - Process Health
+  - Predictive Maintenance
+  - Vibration Analysis
+  - Condition Monitoring
+  - IoT Sensors
+  - Halo
+  - Manufacturing
+  - Reliability
+  - Asset Performance
+  - OT
+  - CMMS
+  - EAM
+url: https://raw.githubusercontent.com/api-evangelist/augury/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.augury.com
+  - type: MachineHealth
+    url: https://www.augury.com/machine-health/
+  - type: ProcessHealth
+    url: https://www.augury.com/process-health/
+  - type: Solutions
+    url: https://www.augury.com/solutions/
+  - type: Partners
+    url: https://www.augury.com/partners/
+  - type: KnowledgeBase
+    url: https://endpoint.augury.com/
+  - type: Support
+    url: https://www.augury.com/access-our-knowledge-base/
+  - type: About
+    url: https://www.augury.com/about/
+  - type: Press
+    url: https://www.augury.com/media-center/press/
+  - type: Blog
+    url: https://www.augury.com/blog/
+  - type: Careers
+    url: https://www.augury.com/careers/
+  - type: Contact
+    url: https://www.augury.com/contact-us/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/augury-inc-
+  - type: Twitter
+    url: https://twitter.com/auguryinc
+  - type: YouTube
+    url: https://www.youtube.com/@AuguryInc
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
