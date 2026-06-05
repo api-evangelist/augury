@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "augury": "https://www.augury.com/vocab#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+
+    "Organization": "schema:Organization",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "foundingDate": "schema:foundingDate",
+    "foundingLocation": "schema:foundingLocation",
+    "sameAs": "schema:sameAs",
+    "industry": "schema:industry",
+    "knowsAbout": "schema:knowsAbout",
+    "hasOfferCatalog": "schema:hasOfferCatalog",
+
+    "MachineHealth": {
+      "@id": "augury:MachineHealth",
+      "@type": "skos:Concept",
+      "skos:definition": "AI-driven continuous monitoring of rotating equipment to predict failures and prescribe maintenance actions."
+    },
+    "ProcessHealth": {
+      "@id": "augury:ProcessHealth",
+      "@type": "skos:Concept",
+      "skos:definition": "Software product optimising manufacturing yield, waste, and energy through process data analysis."
+    },
+    "HaloNode": {
+      "@id": "augury:HaloNode",
+      "@type": "schema:Product",
+      "skos:definition": "Purpose-built IoT sensor capturing vibration, temperature, and magnetic data from industrial assets."
+    },
+    "ConditionMonitoring": {
+      "@id": "augury:ConditionMonitoring",
+      "@type": "skos:Concept",
+      "skos:definition": "Ongoing acquisition and analysis of multi-signal sensor data to track equipment health."
+    },
+    "PredictiveMaintenance": {
+      "@id": "augury:PredictiveMaintenance",
+      "@type": "skos:Concept",
+      "skos:definition": "Maintenance strategy that forecasts equipment failures using real-time sensor data and AI."
+    },
+    "VibrationAnalysis": {
+      "@id": "augury:VibrationAnalysis",
+      "@type": "skos:Concept",
+      "skos:definition": "Signal-processing technique identifying mechanical fault signatures from vibration spectra."
+    },
+    "PrescriptiveDiagnostics": {
+      "@id": "augury:PrescriptiveDiagnostics",
+      "@type": "skos:Concept",
+      "skos:definition": "AI output recommending specific corrective actions to restore asset health."
+    },
+    "RotatingEquipment": {
+      "@id": "augury:RotatingEquipment",
+      "@type": "skos:Concept",
+      "skos:definition": "Industrial machinery operating through rotational motion: motors, pumps, fans, compressors, gearboxes."
+    },
+    "AuguryPlus": {
+      "@id": "augury:AuguryPlus",
+      "@type": "schema:Service",
+      "skos:definition": "Integration ecosystem with certified CMMS/EAM and industrial cloud connectors."
+    },
+    "CMMS": {
+      "@id": "augury:CMMS",
+      "@type": "skos:Concept",
+      "skos:definition": "Computerised Maintenance Management System for planning, tracking, and recording maintenance work orders."
+    },
+    "AssetPerformanceManagement": {
+      "@id": "augury:AssetPerformanceManagement",
+      "@type": "skos:Concept",
+      "skos:definition": "Strategies and software to maximise reliability and efficiency of physical assets throughout their lifecycle."
+    },
+    "IndustrialAI": {
+      "@id": "augury:IndustrialAI",
+      "@type": "skos:Concept",
+      "skos:definition": "Application of AI and ML to OT data in manufacturing for diagnostics, process optimisation, and decision support."
+    },
+
+    "sensor": "augury:sensor",
+    "assetType": "augury:assetType",
+    "faultType": "augury:faultType",
+    "healthScore": "augury:healthScore",
+    "severity": "augury:severity",
+    "recommendation": "augury:recommendation",
+    "monitoringFrequency": "augury:monitoringFrequency",
+    "vibrationAmplitude": {
+      "@id": "augury:vibrationAmplitude",
+      "@type": "qudt:QuantityValue"
+    },
+    "temperature": {
+      "@id": "augury:temperature",
+      "@type": "qudt:QuantityValue"
+    },
+    "workOrderId": "augury:workOrderId",
+    "integrationPartner": "augury:integrationPartner"
+  }
+}

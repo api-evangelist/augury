@@ -1,0 +1,142 @@
+vocabulary:
+  name: Augury Industrial AI Vocabulary
+  description: >-
+    Key terms covering the machine health, process health, predictive
+    maintenance, and industrial AI concepts used by Augury's platform and
+    partner ecosystem.
+  version: "1.0"
+  terms:
+    - term: Machine Health
+      definition: >-
+        Continuous AI-driven monitoring of rotating and electrical equipment
+        (motors, pumps, fans, compressors, gearboxes) to detect developing
+        faults, predict failures, and prescribe maintenance actions before
+        unplanned downtime occurs.
+      tags:
+        - predictive-maintenance
+        - condition-monitoring
+        - asset-performance
+
+    - term: Process Health
+      definition: >-
+        Software capability acquired through Seebo (2022) that analyses
+        production process data to optimise yield, reduce waste, and lower
+        energy consumption in manufacturing lines.
+      tags:
+        - process-optimisation
+        - manufacturing
+        - yield
+
+    - term: Predictive Maintenance
+      definition: >-
+        Maintenance strategy that uses real-time sensor data and AI diagnostics
+        to forecast equipment failures, enabling repairs to be scheduled before
+        breakdowns occur rather than on a fixed calendar or after failure.
+      tags:
+        - maintenance
+        - reliability
+        - IoT
+
+    - term: Condition Monitoring
+      definition: >-
+        Ongoing acquisition and analysis of vibration, temperature, magnetic,
+        and acoustic signals from industrial assets to track equipment health
+        state over time.
+      tags:
+        - vibration-analysis
+        - sensors
+        - OT
+
+    - term: Halo Node
+      definition: >-
+        Augury's purpose-built IoT sensor hardware that captures multi-axis
+        vibration, temperature, and magnetic field data from rotating equipment
+        and transmits it to the Augury cloud platform for AI analysis.
+      tags:
+        - hardware
+        - IoT
+        - sensor
+
+    - term: Vibration Analysis
+      definition: >-
+        Technique that processes high-frequency vibration waveforms and spectra
+        to identify characteristic fault frequencies associated with bearing
+        defects, imbalance, misalignment, looseness, and other mechanical faults.
+      tags:
+        - condition-monitoring
+        - signal-processing
+        - diagnostics
+
+    - term: Prescriptive Diagnostics
+      definition: >-
+        AI output that goes beyond detecting an anomaly to recommend the
+        specific corrective action (e.g. lubricate bearing, replace impeller)
+        required to restore asset health, reducing mean time to repair.
+      tags:
+        - AI
+        - diagnostics
+        - maintenance
+
+    - term: Augury Plus
+      definition: >-
+        Augury's integration ecosystem providing certified connectors to CMMS
+        and EAM platforms (SAP PM, IBM Maximo, Infor EAM, MaintainX) and
+        industrial cloud environments (Microsoft Azure, PTC, AVEVA Connect)
+        for bi-directional work-order and asset data exchange.
+      tags:
+        - integration
+        - CMMS
+        - EAM
+
+    - term: CMMS
+      definition: >-
+        Computerised Maintenance Management System — enterprise software used
+        to plan, track, and record maintenance activities and work orders for
+        industrial assets.
+      tags:
+        - maintenance
+        - enterprise
+        - EAM
+
+    - term: OEE
+      definition: >-
+        Overall Equipment Effectiveness — a manufacturing KPI that combines
+        availability, performance rate, and quality rate to express how
+        productively a machine or production line is operating relative to its
+        full potential.
+      tags:
+        - KPI
+        - manufacturing
+        - process-optimisation
+
+    - term: Rotating Equipment
+      definition: >-
+        Industrial machinery whose primary function involves rotational motion,
+        including electric motors, centrifugal and positive-displacement pumps,
+        fans, blowers, compressors, and gearboxes — the core asset class
+        monitored by Augury's Machine Health product.
+      tags:
+        - assets
+        - machinery
+        - condition-monitoring
+
+    - term: Industrial AI
+      definition: >-
+        Application of machine learning and AI techniques to operational
+        technology (OT) data in manufacturing and industrial environments to
+        automate diagnostics, optimise processes, and augment frontline
+        reliability and engineering decision-making.
+      tags:
+        - AI
+        - manufacturing
+        - OT
+
+    - term: Asset Performance Management
+      definition: >-
+        Discipline encompassing strategies, processes, and software used to
+        maximise the reliability, availability, and efficiency of physical
+        industrial assets throughout their lifecycle.
+      tags:
+        - reliability
+        - maintenance
+        - enterprise
