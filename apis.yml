@@ -1,5 +1,7 @@
 aid: augury
+
 name: Augury
+
 description: >-
   Augury is a New York City-headquartered industrial AI company founded in
   2011 by Gal Shaul and Saar Yoskovitz that profiles itself as the leader in
@@ -31,7 +33,9 @@ description: >-
   integrator partners for custom integrations into customer enterprise
   systems, and does not publish an open developer portal, OpenAPI
   description, SDK, or public-facing API reference for the Halo platform.
+
 type: Index
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -43,6 +47,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -54,9 +59,13 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 position: Producing
+
 access: 3rd-Party
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/augury.png
+
 tags:
   - Industrial AI
   - Machine Health
@@ -72,12 +81,42 @@ tags:
   - OT
   - CMMS
   - EAM
+
 url: https://raw.githubusercontent.com/api-evangelist/augury/refs/heads/main/apis.yml
+
 created: '2026-05-25'
+
 modified: '2026-05-25'
+
 specificationVersion: '0.23'
-apis: []
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
 common:
+  - type: Security
+    url: https://www.augury.com/security/coordinated-vulnerability-disclosure
+  - type: JSONLD
+    url: json-ld/augury-context.jsonld
+  - type: Vocabulary
+    url: vocabulary/augury-vocabulary.yml
+  - type: LLMsTxt
+    url: llms/augury-llms.txt
+  - type: SecurityTxt
+    url: well-known/augury-security.txt
+  - type: SecurityTxt
+    url: well-known/augury-endpoint-security.txt
+  - type: WellKnown
+    url: well-known/augury-well-known.yml
+  - type: Hosts
+    url: hosts/augury-hosts.yml
+  - type: IntegrationEdges
+    url: integrations/augury-integration-edges.yml
+  - type: Vendors
+    url: vendors/augury-vendors.yml
+  - type: VulnerabilityDisclosure
+    url: security/augury-vulnerability-disclosure.yml
   - type: DomainSecurity
     url: security/augury-domain-security.yml
   - type: Website
@@ -96,7 +135,7 @@ common:
     url: https://www.augury.com/access-our-knowledge-base/
   - type: About
     url: https://www.augury.com/about/
-  - type: Press
+  - type: Newsroom
     url: https://www.augury.com/media-center/press/
   - type: Blog
     url: https://www.augury.com/blog/
@@ -104,12 +143,46 @@ common:
     url: https://www.augury.com/careers/
   - type: Contact
     url: https://www.augury.com/contact-us/
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/augury-inc-
-  - type: Twitter
-    url: https://twitter.com/auguryinc
-  - type: YouTube
-    url: https://www.youtube.com/@AuguryInc
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+  - type: Login
+    url: https://app.augury.com/login
+  - type: Pricing
+    url: https://www.augury.com/pricing/
+  - type: PrivacyPolicy
+    url: https://www.augury.com/privacy-policy/
+  - type: TermsOfService
+    url: https://www.augury.com/terms-of-use/
+  - type: TrustCenter
+    url: https://trust.augury.com
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-20'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://endpoint.augury.com/mcp
+    status: 403
+  - url: https://app.augury.com/mcp
+    status: 403
+  - url: https://www.augury.com
+    status: 200
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v5
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: Augury's Halo platform API is referenced only for customers and certified integrators; no public reference, spec or MCP schema exists, and endpoint.augury.com/mcp and app.augury.com/mcp answer 403 before routing.
+  evidence:
+  - url: https://endpoint.augury.com/mcp
+    status: 403
+  - url: https://api.augury.com/openapi.json
+    status: 404
+  checked: '2026-10-20'

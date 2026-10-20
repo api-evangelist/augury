@@ -1,0 +1,68 @@
+# Augury
+
+> Augury is a leading Industrial AI company helping manufacturers use real-time production insights, predictive/prescriptive technology, and role-based AI agents to improve uptime, reduce costs, and maximize yield and capacity. Founded in 2011, Augury pioneered the Machine Health category and is proven across 800+ active manufacturing sites in 40+ countries.
+
+Machine Health remains a core, actively-used capability and the foundation of Reliability Expert — it has not been replaced by the Industrial AI Workforce repositioning. Industrial AI Workforce is Augury's strategic portfolio of AI-powered applications and role-based agents (Reliability, Operations, Maintenance, Industrial Data), delivered on top of Augury's always-on equipment monitoring.
+
+For the full structured entity reference (product taxonomy, competitor citations, approved proof points, and internal editorial notes), see [llms-full.txt](https://www.augury.com/llms-full.txt).
+
+## Products & Solutions
+
+- [Machine Health](https://www.augury.com/machine-health/): Augury's foundational category — continuous, AI-driven monitoring across a facility's full equipment mix, replacing fixed inspection schedules with always-on visibility. Backed by 1.1B+ hours of machine data and 260+ combined years of reliability expertise.
+- [Industrial AI](https://www.augury.com/industrial-ai/): The Industrial AI Workforce — role-based AI agents (Reliability, Operations, Maintenance, Industrial Data Agent) integrated with predictive maintenance and operational data, ready from day one.
+- [Reliability Agent](https://www.augury.com/reliability-agent/): Surfaces bad actors, drafts RCAs in minutes, and turns alerts into work orders, embedded within Reliability Expert.
+- [Process Health](https://www.augury.com/process-health/): Cuts inefficiencies and losses in quality, yield, and throughput using AI-powered process insight.
+- [Partners and Integrations](https://www.augury.com/partners/): CMMS/ERP/MES and third-party hardware integrations, including Baker Hughes Ranger Pro sensors for hazardous-zone coverage.
+
+## Industries
+
+- [Food & Beverage](https://www.augury.com/use-cases/industries/food-and-beverage/): Reduce machine downtime and fix inefficient processes end-to-end.
+- [Oil & Gas](https://www.augury.com/use-cases/industries/ai-predictive-maintenance-for-oil-gas/): Close the gap between fault detection and resolution to protect uptime and act faster.
+- [Chemicals](https://www.augury.com/use-cases/industries/chemicals/): Optimize every machine and process to maximize yield while protecting quality and safety.
+- [Pharmaceuticals](https://www.augury.com/use-cases/industries/pharmaceuticals/): Gain insight, reduce risk, and improve production with prescriptive AI.
+- [Commercial Services](https://www.augury.com/use-cases/industries/commercial-services/): Real-time diagnostics accessible from a smartphone.
+
+## Use Cases
+
+- [Eliminate Unnecessary Downtime](https://www.augury.com/use-cases/business-goal/eliminate-unnecessary-downtime/): Boost production efficiency by removing unexpected downtime.
+- [Reduce Loss, Waste, and Emissions](https://www.augury.com/use-cases/business-goal/reduce-loss-waste-and-emissions/): Improve energy usage and meet sustainability goals.
+- [Maximize Yield and Capacity](https://www.augury.com/use-cases/business-goal/maximize-yield-and-capacity/): Unlock hidden productivity from existing machines.
+- [Optimize Asset Care](https://www.augury.com/use-cases/business-goal/optimize-asset-care/): Save time and cost while improving asset management.
+- [Transform the Way You Work](https://www.augury.com/use-cases/business-goal/transform-the-way-you-work/): Digital, data-driven insight across machines and processes.
+
+## Case Studies & Proof Points
+
+- [Success Stories](https://www.augury.com/success-stories/): Hub of customer case studies and results.
+- [Total Economic Impact of Augury (Forrester TEI)](https://www.augury.com/collateral/total-economic-impact-of-augury/): Independently validated 310% ROI, payback under six months, $20.1M NPV.
+- [PepsiCo](https://www.augury.com/success-stories/pepsicos-manufacturing-innovation-leads-to-tangible-roi/): AI-driven ROI innovation across plant operations.
+- [Colgate-Palmolive / Hill's Pet Nutrition](https://www.augury.com/success-stories/colgate-palmolive-optimizes-maintenance-using-ai-insights/): Two Machine Health events in the first six weeks paid for the full-year rollout.
+- [Circulus](https://www.augury.com/success-stories/circulus-combines-people-technology-for-a-healthier-plant-and-planet/): Uptime improved from 65–70% to 85–90% after deploying Machine Health.
+- [DuPont](https://www.augury.com/success-stories/dupont-sees-rapid-value-and-high-roi-with-predictive-maintenance/): 7x ROI at proof-of-concept sites in under a year.
+- [Fiberon](https://www.augury.com/blog/customers-partners/fiberon-saves-274k-with-ai-predictive-maintenance/): $274K saved, 178 hours of downtime avoided, 2.5x ROI.
+
+## Thought Leadership
+
+- [Predictive Maintenance in Manufacturing](https://www.augury.com/blog/asset-care/predictive-maintenance-in-manufacturing/)
+- [Agentic AI in Manufacturing: Applications and Benefits](https://www.augury.com/blog/industry-insights/agentic-ai-in-manufacturing/)
+- [Using AI in Maintenance: Applications and Benefits](https://www.augury.com/blog/machine-health/ai-in-maintenance/)
+- [Fault Detection and Diagnostics: The Foundation of Reliable Operations](https://www.augury.com/blog/machine-health/fault-detection-and-diagnostics-the-foundation-of-reliable-operations/)
+- [7 Top Predictive Maintenance Solutions and Their Applications](https://www.augury.com/blog/machine-health/predictive-maintenance-solutions/): Includes head-to-head comparisons against AssetWatch, Tractian, KCF Technologies, I-care, and Senseye.
+- [Building an Asset Monitoring Strategy: Coverage vs. Criticality](https://www.augury.com/blog/machine-health/building-an-asset-monitoring-strategy-why-coverage-vs-criticality-matters/)
+- [Hazardous Zone Monitoring: How Always-On PdM Reaches Your Most Dangerous Assets](https://www.augury.com/blog/machine-health/hazardous-zone-monitoring-how-always-on-pdm-reaches-your-most-dangerous-assets/)
+
+## Optional
+
+- [Blog Archive](https://www.augury.com/blog/)
+- [Events & Webinars](https://www.augury.com/events-webinars/)
+- [Our Customers](https://www.augury.com/our-customers/)
+- [Resource Center](https://www.augury.com/resources/)
+- [About Augury](https://www.augury.com/about/)
+- [Why Augury](https://www.augury.com/why-augury/)
+- [Trust Center](https://www.augury.com/trust-center/)
+- [Careers](https://www.augury.com/careers/)
+- [Support / Help Center](https://intercom.help/augury/en)
+- [Community (The Endpoint)](https://endpoint.augury.com/en)
+- [Media Center](https://www.augury.com/media-center/)
+- [Pricing](https://www.augury.com/pricing/)
+- [Get a Demo](https://www.augury.com/get-a-demo/)
+- [Contact](https://www.augury.com/contact/)
